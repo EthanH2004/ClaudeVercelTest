@@ -9,6 +9,7 @@ class handler(BaseHTTPRequestHandler):
         self.wfile.write(b"""
 <!DOCTYPE html>
 <html>
+<head><title>Ethan</title></head>
 <body style="font-family:sans-serif;display:flex;align-items:center;justify-content:center;height:100vh;margin:0;background:#0a0a0a;color:#fff;">
   <h1>Ethan's Epic Website </h1>
 </body>
